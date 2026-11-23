@@ -36,20 +36,6 @@ const nextConfig: NextConfig = {
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
-  async redirects() {
-    const retiredHosts = [
-      "imperiaboutiquehotel.info",
-      "www.imperiaboutiquehotel.info",
-      "hotelimpreaboutiquehotel.info",
-      "www.hotelimpreaboutiquehotel.info",
-    ];
-    return retiredHosts.map((host) => ({
-      source: "/:path*",
-      has: [{ type: "host" as const, value: host }],
-      destination: "https://imperiaboutiquehotel.in/",
-      permanent: true,
-    }));
-  },
 };
 
 export default nextConfig;
