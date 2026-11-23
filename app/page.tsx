@@ -9,57 +9,22 @@ const amenities = [
 
 const rooms = [
   {
-    name: "Deluxe Room",
-    eyebrow: "A COMFORTABLE CITY STAY",
-    size: "220 sq. ft. / 20 sq. m.",
-    bed: "One king bed",
+    name: "Amber Stone",
+    eyebrow: "THE AMBER STONE ROOM",
+    size: "220 sq. ft.",
+    bed: "King bed",
     view: "City view",
-    description:
-      "A welcoming, thoughtfully arranged room for guests visiting Rabale for business or leisure. The Deluxe Room brings together a king bed, a city view and practical in-room essentials.",
-    features: [
-      "Air conditioning",
-      "Wi-Fi",
-      "In-room dining",
-      "Mineral water",
-      "Work desk",
-      "Electric kettle",
-      "Hot water",
-      "Fire extinguisher",
-      "Emergency exit map",
-      "CCTV in property areas",
-    ],
+    occupancy: "Up to 2 adults",
+    description: "A comfortable room category listed with a king bed and city view.",
   },
   {
-    name: "Suite Room",
-    eyebrow: "MORE ROOM TO UNWIND",
-    size: "350 sq. ft. / 33 sq. m.",
-    bed: "One king bed",
+    name: "Opal Suite",
+    eyebrow: "THE OPAL SUITE",
+    size: "350 sq. ft.",
+    bed: "Suite",
     view: "City view",
-    description:
-      "A more spacious stay with a separate living area. The Suite Room combines a king bed with additional space to sit, work and relax, alongside the listed in-room amenities.",
-    features: [
-      "Separate living area",
-      "Air conditioning",
-      "Wi-Fi",
-      "In-room dining",
-      "Mineral water",
-      "Laundry service",
-      "Mini fridge / refrigerator",
-      "Electric kettle",
-      "Dining area and table",
-      "Work desk",
-      "Cash safety locker",
-      "Bathtub and Jacuzzi",
-      "Shaving mirror",
-      "Toiletries and dental kit",
-      "Hot and cold water",
-      "TV and telephone",
-      "Sofa and centre table",
-      "Housekeeping and room service",
-      "Fire extinguisher",
-      "Emergency exit map",
-      "CCTV in property areas",
-    ],
+    occupancy: "Additional living space",
+    description: "A larger suite category listed with a city view and additional living space.",
   },
 ];
 
@@ -123,7 +88,7 @@ export default function Home() {
         <div className="rooms-heading">
           <div className="intro-kicker">Stay at Imperia</div>
           <h2>Rooms &amp; Suites</h2>
-          <p>Explore the room categories and facilities listed for Imperia Boutique Hotel.</p>
+          <p>Explore the same room categories and published details shown on the main Imperia Boutique Hotel website.</p>
         </div>
         <div className="room-detail-grid">
           {rooms.map((room) => (
@@ -143,7 +108,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <p className="room-disclaimer">Room dimensions and facilities are based on details supplied for the hotel website. Please confirm current availability, exact facilities, applicable charges and service timings directly with the property before booking.</p>
+        <p className="room-disclaimer">Room names, published dimensions, bed/view details and occupancy wording are aligned with the main hotel website. Please confirm availability, rates, inclusions and specific facilities directly with the property before booking.</p>
       </section>
 
       <section className="feature-band" id="gallery">
