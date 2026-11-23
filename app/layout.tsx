@@ -1,25 +1,28 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://imperiaboutiquehotel.in";
+const siteUrl = "https://imperiaboutiquehotel.info";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Imperia Boutique Hotel | The Art of a Refined Stay",
+    default: "Imperia Boutique Hotel Rabale | Rooms, Facilities & Hotel Information",
     template: "%s | Imperia Boutique Hotel",
   },
   description:
-    "Discover Imperia Boutique Hotel in Rabale, Navi Mumbai. Visit the official hotel website for current information and enquiries.",
+    "Explore Deluxe Room and Suite Room details, room sizes, in-room facilities, hotel information and location for Imperia Boutique Hotel in Rabale, Navi Mumbai.",
   alternates: { canonical: siteUrl },
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "Imperia Boutique Hotel",
-    title: "Imperia Boutique Hotel | The Art of a Refined Stay",
-    description: "A visual introduction to Imperia Boutique Hotel, Rabale, Navi Mumbai.",
+    title: "Imperia Boutique Hotel Rabale | Rooms & Hotel Information",
+    description:
+      "Discover room categories, facilities and hotel information for Imperia Boutique Hotel, Rabale, Navi Mumbai.",
+    images: [{ url: "/images/imperia-hotel-exterior.jpg", width: 1200, height: 630, alt: "Imperia Boutique Hotel, Rabale, Navi Mumbai" }],
   },
-  robots: { index: false, follow: true },
+  twitter: { card: "summary_large_image", title: "Imperia Boutique Hotel Rabale", description: "Rooms, facilities and hotel information in Rabale, Navi Mumbai." },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {
