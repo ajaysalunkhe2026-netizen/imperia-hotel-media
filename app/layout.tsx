@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://www.imperiaboutiquehotel.info";
+const siteUrl = "https://imperiaboutiquehotel.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -10,22 +10,16 @@ export const metadata: Metadata = {
     template: "%s | Imperia Boutique Hotel",
   },
   description:
-    "Discover Imperia Boutique Hotel in Rabale, Navi Mumbai. Explore the property, rooms, amenities, photography and hotel films.",
-  alternates: {
-    canonical: siteUrl,
-  },
+    "Discover Imperia Boutique Hotel in Rabale, Navi Mumbai. Visit the official hotel website for current information and enquiries.",
+  alternates: { canonical: siteUrl },
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "Imperia Boutique Hotel",
     title: "Imperia Boutique Hotel | The Art of a Refined Stay",
-    description:
-      "A visual introduction to Imperia Boutique Hotel, Rabale, Navi Mumbai.",
+    description: "A visual introduction to Imperia Boutique Hotel, Rabale, Navi Mumbai.",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: false, follow: true },
 };
 
 export const viewport: Viewport = {
@@ -34,12 +28,6 @@ export const viewport: Viewport = {
   themeColor: "#111411",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="en"><body>{children}</body></html>;
 }
