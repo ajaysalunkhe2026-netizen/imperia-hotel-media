@@ -58,9 +58,9 @@ export default function Home() {
           <span><span className="brand-name">IMPERIA</span><span className="brand-sub">BOUTIQUE HOTEL</span></span>
         </a>
         <nav className="nav-links" aria-label="Main navigation">
-          <a href="#story">Our story</a><a href="#rooms">Rooms</a><a href="#gallery">Gallery</a><a href="#experience">The essential details</a>
+          <a href="/#story">Our story</a><a href="/rooms">Rooms</a><a href="/#gallery">Gallery</a><a href="/#experience">The essential details</a>
         </nav>
-        <a className="nav-cta" href="https://imperiaboutiquehotel.in/" target="_blank" rel="noreferrer">Main hotel website ↗</a>
+        <a className="nav-cta" href="/contact">Contact the hotel ↗</a>
       </header>
 
       <section className="hero" id="home">
