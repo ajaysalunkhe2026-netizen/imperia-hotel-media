@@ -31,7 +31,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Hotel",
     name: "Imperia Boutique Hotel",
-    url: "https://imperiaboutiquehotel.info/",
+    url: "https://www.imperiaboutiquehotel.info/",
     telephone: ["+91 83690 11041", "+91 77000 03843"],
     email: "imperiabotiquehotel@gmail.com",
     address: {
