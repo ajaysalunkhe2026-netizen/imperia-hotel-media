@@ -67,7 +67,7 @@ export default function Home() {
         <div className="hero-content">
           <div className="eyebrow">An introduction to Imperia</div>
           <h1>The art of<br />a refined stay.</h1>
-          <p>Discover the rooms, spaces and thoughtful details of Imperia Boutique Hotel, Rabale, Navi Mumbai.</p>
+          <p>A quieter kind of luxury, thoughtfully placed in Rabale, Navi Mumbai. Discover the rooms, spaces and details of Imperia Boutique Hotel.</p>
           <a className="button-light" href="#rooms">Explore rooms <span>↓</span></a>
         </div>
         <div className="hero-index">01 — 04</div>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="rooms-heading">
           <div className="intro-kicker">Stay at Imperia</div>
           <h2>Rooms &amp; Suites</h2>
-          <p>Explore the same room categories and published details shown on the main Imperia Boutique Hotel website.</p>
+          <p>Two distinct ways to stay. Explore the published room details, then speak with our team for current rates and availability.</p>
         </div>
         <div className="room-detail-grid">
           {rooms.map((room) => (
@@ -109,7 +109,7 @@ export default function Home() {
       </section>
 
       <section className="feature-band" id="gallery">
-        <div className="section-heading"><div className="eyebrow">A closer look</div><h2>Spaces. Details. Moments.</h2><p>Explore the visual collection of Imperia Boutique Hotel. Official property photographs and video stories can be added to this gallery.</p></div>
+        <div className="section-heading"><div className="eyebrow">A closer look</div><h2>Spaces. Details. Moments.</h2><p>A visual introduction to the stay. These editorial images are illustrative; official property photography will replace them when supplied.</p></div>
         <div className="gallery-grid">
           <a className="gallery-card" href="#experience"><div className="gallery-photo photo-one"/><div className="gallery-label"><small>Discover</small><strong>The property</strong></div></a>
           <a className="gallery-card" href="#rooms"><div className="gallery-photo photo-two"/><div className="gallery-label"><small>Rest & recharge</small><strong>Guest rooms</strong></div></a>
