@@ -1,10 +1,9 @@
 const amenities = [
-  ["01", "Thoughtful hospitality"],
-  ["02", "Comfort-led rooms"],
-  ["03", "Dining experiences"],
-  ["04", "Convenient location"],
-  ["05", "Attentive service"],
-  ["06", "Spaces to unwind"],
+  ["01", "Air conditioning"],
+  ["02", "Wi-Fi"],
+  ["03", "Mineral water"],
+  ["04", "Room service"],
+  ["05", "Breakfast inclusion shown on listing"],
 ];
 
 const rooms = [
@@ -59,7 +58,7 @@ export default function Home() {
           <span><span className="brand-name">IMPERIA</span><span className="brand-sub">BOUTIQUE HOTEL</span></span>
         </a>
         <nav className="nav-links" aria-label="Main navigation">
-          <a href="#story">Our story</a><a href="#rooms">Rooms</a><a href="#gallery">Gallery</a><a href="#experience">The experience</a>
+          <a href="#story">Our story</a><a href="#rooms">Rooms</a><a href="#gallery">Gallery</a><a href="#experience">The essential details</a>
         </nav>
         <a className="nav-cta" href="https://imperiaboutiquehotel.in/" target="_blank" rel="noreferrer">Main hotel website ↗</a>
       </header>
@@ -122,8 +121,14 @@ export default function Home() {
       </section>
 
       <section className="amenities" id="experience">
-        <div><div className="intro-kicker">The experience</div><h2>Considered in every detail.</h2></div>
+        <div><div className="intro-kicker">The experience</div><h2>The little things that matter.</h2></div>
         <div className="amenity-list">{amenities.map(([number, label]) => <div className="amenity" key={number}><b>{number}</b><span>{label}</span></div>)}</div>
+      </section>
+
+      <section className="checkin-info">
+        <div><span>CHECK-IN</span><strong>12:00 PM</strong></div>
+        <div><span>CHECK-OUT</span><strong>11:00 AM</strong></div>
+        <p>Published timings; please reconfirm before arrival.</p>
       </section>
 
       <section className="location">
@@ -137,7 +142,7 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-top">
           <a className="brand" href="#home"><span className="brand-mark">I</span><span><span className="brand-name">IMPERIA</span><span className="brand-sub">BOUTIQUE HOTEL</span></span></a>
-          <p className="footer-copy">Hotel information, room details and visual introduction to Imperia Boutique Hotel, Rabale, Navi Mumbai.</p>
+          <p className="footer-copy">Hotel information, room details and published amenities for Imperia Boutique Hotel, Rabale, Navi Mumbai.</p>
           <a className="button-light" href="https://imperiaboutiquehotel.in/" target="_blank" rel="noreferrer">Main hotel website ↗</a>
         </div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Imperia Boutique Hotel</span><span>Hotel information & media</span><span>Rabale · Navi Mumbai · India</span></div>
