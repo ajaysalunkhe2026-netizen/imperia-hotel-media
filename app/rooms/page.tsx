@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Rooms & Suites",
   description: "Explore Amber Stone and Opal Suite room categories and published room details at Imperia Boutique Hotel, Rabale, Navi Mumbai.",
-  alternates: { canonical: "https://imperiaboutiquehotel.info/rooms" },
+  alternates: { canonical: "https://www.imperiaboutiquehotel.info/rooms" },
   openGraph: {
     type: "website",
-    url: "https://imperiaboutiquehotel.info/rooms",
+    url: "https://www.imperiaboutiquehotel.info/rooms",
     title: "Rooms & Suites | Imperia Boutique Hotel Rabale",
     description: "Explore Amber Stone and Opal Suite room categories and published room details at Imperia Boutique Hotel, Rabale, Navi Mumbai.",
   },
