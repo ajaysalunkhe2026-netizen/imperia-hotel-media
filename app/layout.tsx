@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://imperiaboutiquehotel.info";
+const siteUrl = "https://www.imperiaboutiquehotel.info";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
