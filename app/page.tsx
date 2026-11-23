@@ -20,7 +20,6 @@ const rooms = [
     name: "Opal Suite",
     eyebrow: "THE OPAL SUITE",
     size: "350 sq. ft.",
-    bed: "Suite",
     view: "City view",
     occupancy: "Additional living space",
     description: "A larger suite category listed with a city view and additional living space.",
@@ -98,7 +97,7 @@ export default function Home() {
                 <p className="room-description">{room.description}</p>
                 <div className="room-specs">
                   <div><small>ROOM SIZE</small><strong>{room.size}</strong></div>
-                  <div><small>BED</small><strong>{room.bed}</strong></div>
+                  {room.bed ? <div><small>BED</small><strong>{room.bed}</strong></div> : null}
                   <div><small>VIEW</small><strong>{room.view}</strong></div>
                 </div>
                 <div><small>DETAILS</small><strong>{room.occupancy}</strong></div>
@@ -106,7 +105,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <p className="room-disclaimer">Room names, published dimensions, bed/view details and occupancy wording are aligned with the main hotel website. Please confirm availability, rates, inclusions and specific facilities directly with the property before booking.</p>
+        <p className="room-disclaimer">Room names, published dimensions and available room details are aligned with the main hotel website. Please confirm availability, rates, inclusions and specific facilities directly with the property before booking.</p>
       </section>
 
       <section className="feature-band" id="gallery">
