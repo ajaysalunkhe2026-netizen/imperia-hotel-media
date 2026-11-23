@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact & Location | Imperia Boutique Hotel Rabale",
+  title: "Contact & Location",
   description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email. Find the hotel address and published check-in and check-out timings.",
   alternates: { canonical: "https://imperiaboutiquehotel.info/contact" },
   openGraph: {
