@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact & Location",
   description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email. Find the hotel address and published check-in and check-out timings.",
-  alternates: { canonical: "https://imperiaboutiquehotel.info/contact" },
+  alternates: { canonical: "https://www.imperiaboutiquehotel.info/contact" },
   openGraph: {
     type: "website",
-    url: "https://imperiaboutiquehotel.info/contact",
+    url: "https://www.imperiaboutiquehotel.info/contact",
     title: "Contact & Location | Imperia Boutique Hotel Rabale",
     description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email. Find the hotel address and published check-in and check-out timings.",
   },
