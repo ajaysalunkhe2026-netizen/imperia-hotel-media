@@ -4,6 +4,17 @@ export const metadata: Metadata = {
   title: "Contact & Location | Imperia Boutique Hotel Rabale",
   description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email. Find the hotel address and published check-in and check-out timings.",
   alternates: { canonical: "https://imperiaboutiquehotel.info/contact" },
+  openGraph: {
+    type: "website",
+    url: "https://imperiaboutiquehotel.info/contact",
+    title: "Contact & Location | Imperia Boutique Hotel Rabale",
+    description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email. Find the hotel address and published check-in and check-out timings.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Contact & Location | Imperia Boutique Hotel Rabale",
+    description: "Contact Imperia Boutique Hotel in Rabale, Navi Mumbai by phone or email.",
+  },
 };
 
 export default function ContactPage() {
