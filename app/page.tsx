@@ -101,8 +101,7 @@ export default function Home() {
                   <div><small>BED</small><strong>{room.bed}</strong></div>
                   <div><small>VIEW</small><strong>{room.view}</strong></div>
                 </div>
-                <h4>In-room facilities</h4>
-                <ul className="room-feature-list">{room.features.map((feature) => <li key={feature}>{feature}</li>)}</ul>
+                <div><small>DETAILS</small><strong>{room.occupancy}</strong></div>
               </div>
             </article>
           ))}
