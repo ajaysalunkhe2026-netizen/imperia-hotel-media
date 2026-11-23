@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     title: "Imperia Boutique Hotel Rabale | Rooms & Hotel Information",
     description:
       "Discover Amber Stone and Opal Suite room categories, published amenities and hotel information for Imperia Boutique Hotel, Rabale, Navi Mumbai.",
-    images: [{ url: "/images/imperia-hotel-exterior.jpg", width: 1200, height: 630, alt: "Imperia Boutique Hotel, Rabale, Navi Mumbai" }],
+    images: [{ url: "https://imperiaboutiquehotel.in/images/imperia-hotel-exterior.jpg", width: 1200, height: 630, alt: "Imperia Boutique Hotel, Rabale, Navi Mumbai" }],
   },
-  twitter: { card: "summary_large_image", title: "Imperia Boutique Hotel Rabale", description: "Amber Stone and Opal Suite room information, amenities and hotel details in Rabale, Navi Mumbai." },
+  twitter: { card: "summary_large_image", title: "Imperia Boutique Hotel Rabale", description: "Amber Stone and Opal Suite room information, amenities and hotel details in Rabale, Navi Mumbai.", images: ["https://imperiaboutiquehotel.in/images/imperia-hotel-exterior.jpg"] },
   robots: { index: true, follow: true },
 };
 
